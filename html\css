@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your CV Portfolio</title>
+    <style>
+        /* Add your custom CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Add more CSS styles for your CV sections here */
+
+        /* Example style for a section header */
+        .section-header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        /* Example style for a list item */
+        .list-item {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Example style for contact details */
+        .contact-info {
+            margin-bottom: 1rem;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Dimitar Angelov</h1>
+        <p>Web Developer | Designer</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2 class="section-header">About Me</h2>
+            <p>
+                Write a brief introduction about yourself and your career goals.
+            </p>
+        </section>
+
+        <section>
+            <h2 class="section-header">Contact Information</h2>
+            <div class="contact-info">
+                <p>Email: d.angelov.9090@gmail.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+                <p>Website: www.yourwebsite.com</p>
+                <p>Location: Asenovgrad, Bulgaria</p>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-header">Skills</h2>
+            <ul>
+                <li class="list-item">HTML/CSS</li>
+                <li class="list-item">JavaScript</li>
+                <li class="list-item">React</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-header">Education</h2>
+            <p>
+                Your educational background, including degrees, certificates, and relevant achievements.
+            </p>
+        </section>
+
+        <section>
+            <h2 class="section-header">Experience</h2>
+            <p>
+                Your work experience, projects, and accomplishments.
+            </p>
+        </section>
+
+        <!-- Add more sections for projects, certifications, etc. -->
+
+    </div>
+</body>
+
+</html>
